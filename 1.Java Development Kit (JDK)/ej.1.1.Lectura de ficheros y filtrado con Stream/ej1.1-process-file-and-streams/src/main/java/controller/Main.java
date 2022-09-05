@@ -13,7 +13,7 @@ public class Main {
 
         //Menu
         do {
-            System.out.println("\nExercise 1.1" +
+            System.out.println("\nExercise 1.1." +
                     "\nChoose an option");
             System.out.println("1. Under 25 years old" +
                     "\n2. Remove people whose name starts with A" +
