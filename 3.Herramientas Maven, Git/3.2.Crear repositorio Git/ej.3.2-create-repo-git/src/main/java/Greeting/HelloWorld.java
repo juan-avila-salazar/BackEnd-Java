@@ -9,5 +9,6 @@ public class HelloWorld {
         System.out.println("Hola mundo");
 
         obj.AddContentToTxt1();
+        obj.AddContentToTxt2();
     }
 }
