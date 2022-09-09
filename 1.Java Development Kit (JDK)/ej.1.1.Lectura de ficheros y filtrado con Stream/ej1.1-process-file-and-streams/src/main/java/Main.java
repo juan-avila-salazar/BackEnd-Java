@@ -1,4 +1,4 @@
-package controller;
+import controller.PersonController;
 
 import java.util.Scanner;
 
