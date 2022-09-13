@@ -16,9 +16,9 @@ public class BeanController {
     @Qualifier("Bean1")
     public PersonModel getBean1(){
         PersonModel person1=new PersonModel();
-        person1.setName("Luis Daniel");
+        person1.setName("juan");
         person1.setCity("Madrid");
-        person1.setAge(34);
+        person1.setAge(21);
         return person1;
     }
 
@@ -27,9 +27,9 @@ public class BeanController {
     @Qualifier("Bean2")
     public PersonModel getBean2(){
         PersonModel person2 = new PersonModel();
-        person2.setName("Daniella");
-        person2.setCity("Barcelona");
-        person2.setAge(4);
+        person2.setName("jaqueline");
+        person2.setCity("madrid");
+        person2.setAge(56);
         return person2;
     }
 
@@ -37,9 +37,9 @@ public class BeanController {
     @Qualifier("Bean3")
     public PersonModel getBean3(){
         PersonModel person3 = new PersonModel();
-        person3.setName("Delany");
-        person3.setCity("Sevilla");
-        person3.setAge(32);
+        person3.setName("franyer");
+        person3.setCity("madrid");
+        person3.setAge(34);
         return person3;
     }
 
