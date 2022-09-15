@@ -1,0 +1,23 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="pro" type="Application" factoryName="Application">
+        <envs>
+            <env name="spring.profiles.active" value="PRO" />
+        </envs>
+        <option name="MAIN_CLASS_NAME" value="com.ej5.profiles.Application" />
+        <module name="ej5.6-profiles2.0" />
+        <method v="2">
+            <option name="Make" enabled="true" />
+        </method>
+    </configuration>
+</component><component name="ProjectRunConfigurationManager">
+<configuration default="false" name="pro" type="Application" factoryName="Application">
+    <envs>
+        <env name="spring.profiles.active" value="PRO" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.ej5.profiles.Application" />
+    <module name="ej5.4-profiles" />
+    <method v="2">
+        <option name="Make" enabled="true" />
+    </method>
+</configuration>
+</component>
