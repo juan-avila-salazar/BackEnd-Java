@@ -17,7 +17,7 @@ public class PersonController {
     List<Person> personList = new ArrayList<Person>();
     //metodo para leer un archivo
     public void showContent (){
-        Path path = Paths.get("C:\\Users\\juanpablo.avila\\Desktop\\Proyectos Instrucion\\BackEnd Java\\1.Java Development Kit (JDK)\\ej.1.1.Lectura de ficheros y filtrado con Stream\\Ficheros\\prueba.txt");
+        Path path = Paths.get("C:\\Users\\juanpablo.avila\\Desktop\\Proyectos Instrucion\\BackEnd Java\\1.Java Development Kit (JDK)\\1.1.Lectura de ficheros y filtrado con Stream\\Ficheros\\prueba.txt");
         try(BufferedReader br = Files.newBufferedReader(path)){
             String currentLine= br.readLine();
             while (currentLine!=null){
@@ -49,7 +49,6 @@ public class PersonController {
 
         } catch (IOException ex) {
             System.out.println("Error al encontar e fichero");
-            ex.printStackTrace();
         }
     }
 
