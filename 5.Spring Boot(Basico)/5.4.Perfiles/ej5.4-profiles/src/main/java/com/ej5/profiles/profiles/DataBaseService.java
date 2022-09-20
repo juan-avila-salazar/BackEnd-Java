@@ -1,21 +1,18 @@
 package com.ej5.profiles.profiles;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
 
-@org.springframework.context.annotation.Profile("local")
-@PropertySource("classpath:local.properties")
 @Service
-public class Local implements Profile{
+public class DataBaseService {
+
     @Value("${environment}")
     String environment;
 
     @Value("${bd.url}")
     String bdURL;
 
-    @Override
-    public void readProperties() {
+    public void printDataBase() {
         System.out.println(environment);
         System.out.println(bdURL);
     }
