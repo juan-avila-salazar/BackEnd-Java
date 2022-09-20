@@ -13,12 +13,12 @@ import javax.annotation.PostConstruct;
 public class Application implements CommandLineRunner {
 
 	public static void main(String[] args) {
-		//log.info("Hola desde la clase Inicial.");
 		SpringApplication.run(Application.class, args);
 		log.info("Soy la tercera clase ");
 	}
 	@Override
 	public void run(String... args) throws Exception {
 		log.info("Hola desde la clase Seundaria");
+
 	}
 }
