@@ -21,6 +21,4 @@ public class Controlador2 {
         return person;
     }
 
-    //@GetMapping("getCiudad")
-    //public
 }
